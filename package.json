@@ -1,0 +1,49 @@
+{
+    "name": "rpg-game",
+    "version": "1.1.0",
+    "description": "i tried my best",
+    "keywords": [
+        "game",
+        "selfmade",
+        "rpg"
+    ],
+    "homepage": "https://github.com/WalkingBastion/rpg-game#readme",
+    "bugs": {
+        "url": "https://github.com/WalkingBastion/rpg-game/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WalkingBastion/rpg-game.git"
+    },
+    "license": "ISC",
+    "author": "Yakov Krilov",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production",
+        "build-dev": "webpack --mode development",
+        "lint": "eslint .",
+        "start": "webpack serve"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.28.6",
+        "@babel/core": "^7.29.0",
+        "@babel/preset-env": "^7.29.5",
+        "@eslint/js": "^8.57.1",
+        "babel-loader": "^10.1.1",
+        "css-loader": "^7.1.4",
+        "eslint": "^8.57.1",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "html-loader": "^5.1.0",
+        "html-webpack-plugin": "^5.6.7",
+        "http-server": "^14.1.1",
+        "mini-css-extract-plugin": "^2.10.2",
+        "webpack": "^5.106.2",
+        "webpack-cli": "^7.0.2",
+        "webpack-dev-server": "^5.2.4"
+    },
+    "dependencies": {
+        "core-js": "^3.49.0"
+    }
+}
